@@ -1,6 +1,5 @@
 const btnComprar = document.getElementById('btnComprar');
 
 btnComprar.addEventListener('click', function() {
-    // Teu link real de pagamento do Stripe
-    window.location.href = 'HTTPS://BUY.STRIPE.COM/TEST_28E9ASBBJDDQE0K8XR1SQ00'; 
+    window.location.href = 'https://buy.stripe.com/test_28E9ASbbJddqe0k8xR1sQ00'; 
 });
