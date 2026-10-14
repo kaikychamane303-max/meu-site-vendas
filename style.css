@@ -1,0 +1,75 @@
+/* Configuração geral e fontes */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f6;
+    color: #333;
+    text-align: center;
+}
+
+/* Secção de Cabeçalho (Hero) */
+.hero {
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    color: white;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+    opacity: 0.9;
+}
+
+/* Botão de Compra Atrativo */
+.btn-comprar {
+    background-color: #00c853;
+    color: white;
+    border: none;
+    padding: 15px 35px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    box-shadow: 0 4px 15px rgba(0, 200, 83, 0.4);
+}
+
+.btn-comprar:hover {
+    background-color: #00b044;
+    transform: translateY(-2px);
+}
+
+/* Secção de Benefícios */
+.beneficios {
+    padding: 50px 20px;
+    background-color: #ffffff;
+    max-width: 700px;
+    margin: 40px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.beneficios h2 {
+    color: #1e3c72;
+    margin-bottom: 25px;
+}
+
+.beneficios ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    display: inline-block;
+}
+
+.beneficios li {
+    font-size: 1.1rem;
+    margin: 15px 0;
+}
